@@ -1,7 +1,9 @@
 // pages/index.js
+import AboutView from "@/domains/about/about.view";
 import HeaderView from "@/domains/header/header.view";
 import HeroView from "@/domains/hero/hero.view";
 import Invitation from "@/domains/invitation/invitation";
+import TimelineView from "@/domains/timeline/timeline.view";
 
 export default function Home() {
     return (
@@ -12,6 +14,8 @@ export default function Home() {
                     <HeroView />
                 </div>
                 <Invitation />
+                <AboutView />
+                <TimelineView/>
             </section>
         </main>
     );
