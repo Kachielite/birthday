@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.font-fredoka {
+    font-family: 'Fredoka', sans-serif;
+}
 
+.font-lato {
+    font-family: 'Lato', sans-serif;
+}
 
+.rotate-right-tilt {
+    transform: rotate(10deg); /* Adjust the degree as needed */
+}
+
+.rotate-left-tilt {
+    transform: rotate(-10deg); /* Adjust the degree as needed */
+}

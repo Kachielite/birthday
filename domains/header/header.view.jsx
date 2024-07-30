@@ -19,7 +19,7 @@ const HeaderView = () => {
     return (
         <>
             <div
-                className="fixed z-10 flex flex-row items-center justify-between w-full bg-[#DCAE96] px-4 lg:px-20 py-4">
+                className="fixed z-10 flex flex-row items-center justify-between w-full px-4 lg:px-20 py-4 text-[#646C54]">
                 <HeaderBrand/>
                 <HeaderToggle menuHandler={menuHandler} isOpen={isOpen}/>
                 <HeaderNav items={NAV_ITEMS}/>

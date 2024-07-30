@@ -25,3 +25,8 @@ T
 $domains/header/header.mobile-nav.jsx,c/9/c91e15c5e1aaa0b1dddaff170140aa5470eed965
 P
  domains/header/header.toggle.jsx,8/b/8b9994e3e744ad60295084d04d5878204623b1c6
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+J
+domains/hero/hero.view.jsx,1/3/13d60df1ff5eb8d5df11e7cbcc5c5f3cebe9c9f4
