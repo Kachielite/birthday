@@ -52,3 +52,9 @@ A
 pages/api/rsvp.js,9/b/9b97e66d8da62f3f032970519d382400c5d2bf28
 >
 data/rsvp.json,f/4/f49ea84130ecebebf99ac6db5c49092b1e83586b
+R
+"domains/location/location.view.jsx,5/6/5691af5caaa3d4c99a3b20f9daa7c0ca48a9f37c
+R
+"domains/location/location.info.jsx,2/a/2a3d4f54423790daf0438b3b95f2b916fdce8555
+Q
+!domains/location/location.map.jsx,d/1/d1b9ffc722443867fca5f26e22bb300cc9afdbbb
