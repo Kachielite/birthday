@@ -10,7 +10,7 @@ const useRsvp = () => {
         email: '',
         allergies: ''
     });
-    const [showForm, setShowForm] = useState(false);
+    const [showForm, setShowForm] = useState(true);
 
     const handleChange = (e) => {
         const { name, value } = e.target;

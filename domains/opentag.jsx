@@ -40,7 +40,7 @@ const OpenGraphTag = () => {
                 content="Join us in celebrating Duby's birthday! Come and be part of a joyous occasion filled with laughter, love, and memorable moments." />
             <meta
                 property="og:image"
-                content={duby}
+                content={duby.src}
             />
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:url" content="https://duby-invite.vercel.app/" />
@@ -50,7 +50,7 @@ const OpenGraphTag = () => {
                 content="Join us in celebrating Duby's birthday! Come and be part of a joyous occasion filled with laughter, love, and memorable moments." />
             <meta
                 property="twitter:image"
-                content={duby}
+                content={duby.src}
             />
         </>
     );
