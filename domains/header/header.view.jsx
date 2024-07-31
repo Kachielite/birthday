@@ -25,7 +25,7 @@ const HeaderView = ({offset}) => {
                 <HeaderBrand />
                 <HeaderToggle menuHandler={menuHandler} isOpen={isOpen} />
                 <HeaderNav items={NAV_ITEMS} />
-                <HeaderMobileNav items={NAV_ITEMS} isOpen={isOpen} />
+                <HeaderMobileNav items={NAV_ITEMS} isOpen={isOpen} setIsOpen={setIsOpen} />
             </div>
         </div>
     );

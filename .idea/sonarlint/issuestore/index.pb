@@ -60,3 +60,5 @@ Q
 !domains/location/location.map.jsx,d/1/d1b9ffc722443867fca5f26e22bb300cc9afdbbb
 N
 domains/footer/footer.view.jsx,f/1/f11b9e11edd1a6403b8b981191e1ebada011c1cc
+C
+domains/opentag.jsx,0/c/0cfc26561dc7efe25746874f9de4b6a6e94ca7c6
