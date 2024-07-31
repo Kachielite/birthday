@@ -1,7 +1,7 @@
 const RsvpForm = ({formData, error, handleChange, success, handleSubmit}) => {
     return (
         <form id="rsvp-form" onSubmit={handleSubmit}
-              className="flex flex-col justify-center items-center space-y-6 w-[100vw] h-[740px] bg-[#FFFDF2] opacity-90 p-[30px] text-[#646C64] font-lato px-4">
+              className="flex flex-col justify-center items-center space-y-6 w-[100vw] h-[740px] bg-[#646C64]/[0.9] p-[30px] text-[#FFFDF2] font-lato px-4">
             <p className="text-[30px] font-fredoka text-center lg:text-left font-bold">Will you join us for the birthday
                 celebration?</p>
             {error && <p className="text-red-500">{error}</p>}

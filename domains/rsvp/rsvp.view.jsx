@@ -1,5 +1,5 @@
 // domains/rsvp/rsvp.view.jsx
-import { useState } from "react";
+import { ToastContainer } from "react-toastify";
 import RsvpInfo from "@/domains/rsvp/rsvp.info";
 import RsvpForm from "@/domains/rsvp/rsvp.form";
 import useRsvp from "@/domains/rsvp/useRsvp";
@@ -7,8 +7,6 @@ import useRsvp from "@/domains/rsvp/useRsvp";
 const RsvpView = () => {
     const {
         formData,
-        error,
-        success,
         handleChange,
         handleSubmit,
         showForm,
@@ -17,6 +15,17 @@ const RsvpView = () => {
 
     return (
         <>
+            <ToastContainer
+                position="top-center"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+            />
             <div id="rsvp"
                 className="w-screen h-fit lg:h-[490px] mt-20 lg:mt-0 flex justify-center items-center relative py-[80px] bg-cover bg-center"
                 style={{backgroundImage: `url('/assets/images/rsvpp.jpg')`}}>
@@ -29,8 +38,6 @@ const RsvpView = () => {
             </div>
             {showForm && <RsvpForm
                 formData={formData}
-                error={error}
-                success={success}
                 handleChange={handleChange}
                 handleSubmit={handleSubmit}
             />}

@@ -1,5 +1,7 @@
-import {useState} from "react";
+import { useState } from "react";
 import axios from "axios";
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const useRsvp = () => {
     const [formData, setFormData] = useState({
@@ -8,9 +10,7 @@ const useRsvp = () => {
         email: '',
         allergies: ''
     });
-    const [error, setError] = useState('');
-    const [success, setSuccess] = useState('');
-    const [showForm, setShowForm] = useState(false);
+    const [showForm, setShowForm] = useState(true);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -19,32 +19,28 @@ const useRsvp = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        setError('');
-        setSuccess('');
 
         // Validate form data
         if (!formData.name || !formData.phone || !formData.email) {
-            setError('All fields are required except allergies');
+            toast.error('All fields are required except allergies');
             return;
         }
 
         try {
             const response = await axios.post('/api/rsvp', formData);
-            setSuccess(response.data.message);
+            toast.success(response.data.message);
+            setShowForm(false);
         } catch (error) {
-            setError(error.response?.data?.error || 'An error occurred');
+            toast.error(error.response?.data?.error || 'An error occurred');
         }
     };
 
     return {
         formData,
-        error,
-        success,
         handleChange,
         handleSubmit,
-        showForm,
-        setShowForm
+        showForm
     }
-}
+};
 
-export default useRsvp;
+export default useRsvp

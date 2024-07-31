@@ -7,6 +7,7 @@ import TimelineView from "@/domains/timeline/timeline.view";
 import RsvpView from "@/domains/rsvp/rsvp.view";
 import {useEffect, useState} from "react";
 import LocationView from "@/domains/location/location.view";
+import FooterView from "@/domains/footer/footer.view";
 
 export default function Home() {
     const [offset, setOffset] = useState(0);
@@ -33,6 +34,7 @@ export default function Home() {
                 <TimelineView/>
                 <RsvpView/>
                 <LocationView/>
+                <FooterView/>
             </section>
         </main>
     );

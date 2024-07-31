@@ -58,3 +58,5 @@ R
 "domains/location/location.info.jsx,2/a/2a3d4f54423790daf0438b3b95f2b916fdce8555
 Q
 !domains/location/location.map.jsx,d/1/d1b9ffc722443867fca5f26e22bb300cc9afdbbb
+N
+domains/footer/footer.view.jsx,f/1/f11b9e11edd1a6403b8b981191e1ebada011c1cc
