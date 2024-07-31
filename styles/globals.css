@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .font-fredoka {
   font-family: "Fredoka", sans-serif;
 }
@@ -30,4 +34,8 @@
   box-shadow: rgba(109, 117, 97, 0.5) 0px 2px 6px 0px;
   outline: none;
   border: none;
+}
+
+.rsvp_box {
+  background: linear-gradient(rgba(252, 251, 253, 0), rgba(252, 251, 253, 0));
 }

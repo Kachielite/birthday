@@ -4,6 +4,7 @@ import HeaderView from "@/domains/header/header.view";
 import HeroView from "@/domains/hero/hero.view";
 import Invitation from "@/domains/invitation/invitation";
 import TimelineView from "@/domains/timeline/timeline.view";
+import RsvpView from "@/domains/rsvp/rsvp.view";
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
                 <Invitation />
                 <AboutView />
                 <TimelineView/>
+                <RsvpView/>
             </section>
         </main>
     );
