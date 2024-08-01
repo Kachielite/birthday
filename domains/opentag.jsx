@@ -3,10 +3,11 @@ import React from "react";
 
 const OpenGraphTag = () => {
         const logoUrl = "https://duby-invite.vercel.app/assets/icons/brand.png"; // Replace with your actual URL
-        const dubyUrl = "https://duby-invite.vercel.app/assets/images/duby.jpeg"; // Replace with your actual URL
+        const dubyUrl = "https://duby-invite.vercel.app/assets/images/duby2.png"; // Replace with your actual URL
 
     return (
         <>
+                <title>Duby's Birthday</title>
             <link
                 rel="icon"
                 href={logoUrl}
