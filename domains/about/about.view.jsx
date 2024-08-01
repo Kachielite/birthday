@@ -1,6 +1,6 @@
 import Image from "next/image";
 import AboutDetails from "./about.details";
-import Duby from "@/public/assets/images/duby.jpeg";
+import Duby from "@/public/assets/images/duby3.png";
 
 
 const AboutView = () => {

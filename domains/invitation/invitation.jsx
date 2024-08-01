@@ -5,7 +5,7 @@ const Invitation = () => {
     return (
         <div className="w-full h-[402px] bg-[#646C64]/[0.9] text-white font-fredoka flex flex-col space-y-10 justify-center items-center px-4">
             <p className="text-[#A7B3A3] text-[20px]">August 3rd</p>
-            <p className="text-[35px] lg:text-[54px] text-center">You are invited to Duby's birthday party</p>
+            <p className="text-[35px] lg:text-[54px] text-center">You’re invited to Duby’s Birthday Get-Together</p>
             <Link href="#rsvp" className="font-lato text-[16px]">
                 <div className="flex flex-row space-x-2 items-center justify-center">
                     <p className="font-lato text-[16px]">RSVP now</p>

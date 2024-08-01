@@ -3,11 +3,12 @@ import AboutView from "@/domains/about/about.view";
 import HeaderView from "@/domains/header/header.view";
 import HeroView from "@/domains/hero/hero.view";
 import Invitation from "@/domains/invitation/invitation";
-import TimelineView from "@/domains/timeline/timeline.view";
+import PlaylistView from "@/domains/playlist/playlist.view";
 import RsvpView from "@/domains/rsvp/rsvp.view";
 import {useEffect, useState} from "react";
 import LocationView from "@/domains/location/location.view";
 import FooterView from "@/domains/footer/footer.view";
+import DressCodeView from "@/domains/dress-code/dress-code.view";
 
 export default function Home() {
     const [offset, setOffset] = useState(0);
@@ -31,9 +32,9 @@ export default function Home() {
                 </div>
                 <Invitation />
                 <AboutView />
-                <TimelineView/>
+                <PlaylistView/>
                 <RsvpView/>
-                <LocationView/>
+                <DressCodeView/>
                 <FooterView/>
             </section>
         </main>

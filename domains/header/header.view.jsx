@@ -6,9 +6,10 @@ import HeaderMobileNav from "@/domains/header/header.mobile-nav";
 
 const NAV_ITEMS = [
     { label: 'About Dubem', path: '#about' },
-    { label: 'Timeline', path: '#timeline' },
+    { label: 'Playlist', path: '#timeline' },
     { label: 'RSVP', path: '#rsvp' },
-    { label: 'Venue', path: '#venue' },
+    { label: 'Dress code', path: '#dress-code' },
+    // { label: 'Venue', path: '#venue' },
 ]
 
 const HeaderView = ({offset}) => {
