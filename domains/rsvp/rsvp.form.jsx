@@ -9,25 +9,25 @@ const RsvpForm = ({formData, error, handleChange, success, handleSubmit, isSendi
             <div className="flex flex-col justify-center items-start space-y-4">
                 <p className="text-[14px] text-left">Name <span className="text-[14px] pb-[5px]">*</span></p>
                 <input name="name" value={formData.name} onChange={handleChange}
-                       className="w-[90vw] lg:w-[400px] h-[50px] px-[15px] rounded-[10px] border-[#646C64] border-[1px]"
+                       className="w-[90vw] lg:w-[400px] h-[50px] px-[15px] rounded-[10px] border-[#646C64] border-[1px] text-[#646C64]"
                        type="text"/>
             </div>
             <div className="flex flex-col justify-center items-start space-y-4">
                 <p className="text-[14px]">Phone number <span className="text-[14px] pb-[5px]">*</span></p>
                 <input name="phone" value={formData.phone} onChange={handleChange}
-                       className="w-[90vw] lg:w-[400px] h-[50px] px-[15px] rounded-[10px] border-[#646C64] border-[1px]"
+                       className="w-[90vw] lg:w-[400px] h-[50px] px-[15px] rounded-[10px] border-[#646C64] border-[1px] text-[#646C64]"
                        type="text"/>
             </div>
             <div className="flex flex-col justify-center items-start space-y-4">
                 <p className="text-[14px]">Email address <span className="text-[14px] pb-[5px]">*</span></p>
                 <input name="email" value={formData.email} onChange={handleChange}
-                       className="w-[90vw] lg:w-[400px] h-[50px] px-[15px] rounded-[10px] border-[#646C64] border-[1px]"
+                       className="w-[90vw] lg:w-[400px] h-[50px] px-[15px] rounded-[10px] border-[#646C64] border-[1px] text-[#646C64]"
                        type="text"/>
             </div>
             <div className="flex flex-col justify-center items-start space-y-4">
                 <p className="text-[14px]">Allergies</p>
                 <input name="allergies" value={formData.allergies} onChange={handleChange}
-                       className="w-[90vw] lg:w-[400px] h-[50px] px-[15px] rounded-[10px] border-[#646C64] border-[1px]"
+                       className="w-[90vw] lg:w-[400px] h-[50px] px-[15px] rounded-[10px] border-[#646C64] border-[1px] text-[#646C64]"
                        type="text"/>
             </div>
             <button type="submit"
