@@ -12,7 +12,7 @@ export default async function handler(req, res) {
         }
 
         // SheetDB API setup
-        const sheetDBUrl = "https://sheetdb.io/api/v1/679tribsqub3z"; // Replace with your SheetDB API URL
+        const sheetDBUrl = "https://sheetdb.io/api/v1/wpxyohstnzmzw"; // Replace with your SheetDB API URL
 
         // Send data to Google Sheet via SheetDB
         try {
