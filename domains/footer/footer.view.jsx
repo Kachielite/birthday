@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const NAV_ITEMS = [
-    { label: 'About Dubem', path: '#about' },
+    { label: 'About', path: '#about' },
     { label: 'Playlist', path: '#timeline' },
     { label: 'RSVP', path: '#rsvp' },
     { label: 'Dress code', path: '#dress-code' },

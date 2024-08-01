@@ -5,7 +5,7 @@ import HeaderToggle from "@/domains/header/header.toggle";
 import HeaderMobileNav from "@/domains/header/header.mobile-nav";
 
 const NAV_ITEMS = [
-    { label: 'About Dubem', path: '#about' },
+    { label: 'About', path: '#about' },
     { label: 'Playlist', path: '#timeline' },
     { label: 'RSVP', path: '#rsvp' },
     { label: 'Dress code', path: '#dress-code' },
