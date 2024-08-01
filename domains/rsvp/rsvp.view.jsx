@@ -10,7 +10,8 @@ const RsvpView = () => {
         handleChange,
         handleSubmit,
         showForm,
-        setShowForm
+        setShowForm,
+        isSendingEmail
     } = useRsvp();
 
     return (
@@ -40,6 +41,7 @@ const RsvpView = () => {
                 formData={formData}
                 handleChange={handleChange}
                 handleSubmit={handleSubmit}
+                isSendingEmail={isSendingEmail}
             />}
         </>
     );

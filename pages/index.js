@@ -33,8 +33,9 @@ export default function Home() {
                 <Invitation />
                 <AboutView />
                 <PlaylistView/>
-                <RsvpView/>
                 <DressCodeView/>
+                <RsvpView/>
+                <LocationView/>
                 <FooterView/>
             </section>
         </main>

@@ -1,7 +1,8 @@
 // domains/location/location.map.jsx
 const LocationMap = () => {
-    const location = "4299 Mattson Street, Tigard, Oregon, United States";
-    const mapSrc = `https://www.openstreetmap.org/export/embed.html?bbox=-122.7825%2C45.4315%2C-122.7725%2C45.4415&layer=mapnik&marker=45.4365%2C-122.7775`;
+    const lat = 6.409480;
+    const lng = 4.091520;
+    const mapSrc = `https://www.openstreetmap.org/export/embed.html?bbox=${lng-0.005}%2C${lat-0.005}%2C${lng+0.005}%2C${lat+0.005}&layer=mapnik&marker=${lat}%2C${lng}`;
 
     return (
         <div className="map-container">

@@ -9,7 +9,7 @@ const NAV_ITEMS = [
     { label: 'Playlist', path: '#timeline' },
     { label: 'RSVP', path: '#rsvp' },
     { label: 'Dress code', path: '#dress-code' },
-    // { label: 'Venue', path: '#venue' },
+    { label: 'Venue', path: '#venue' },
 ]
 
 const HeaderView = ({offset}) => {

@@ -31,22 +31,22 @@ export default async function handler(req, res) {
 
         // Configure nodemailer
         const transporter = nodemailer.createTransport({
-            host: 'smtp.example.com', // Replace with your SMTP host
-            port: 587, // Replace with your SMTP port
+            host: 'smtp.gmail.com', // Replace with your SMTP host
+            port: 465, // Replace with your SMTP port
             auth: {
-                user: 'your-email@example.com', // Replace with your email
-                pass: 'your-email-password' // Replace with your email password
+                user: 'dubemobinnaesiowu@gmail.com', // Replace with your email
+                pass: process.env.EMAIL_PASSWORD // Replace with your email password
             }
         });
 
         // Send email
         try {
             await transporter.sendMail({
-                from: 'your-email@example.com', // Replace with your email
+                from: 'dubemobinnaesiowu@gmail.com', // Replace with your email
                 to: email,
-                subject: 'RSVP Confirmation',
-                text: `Thank you for your RSVP, ${name}! We look forward to seeing you.`,
-                html: `<p>Thank you for your RSVP, ${name}! We look forward to seeing you.</p>`
+                subject: "Duby's Sip, Paint, and Worship",
+                text: `Hey ${name}! Thank you for your RSVP. I can’t wait to spend the day with you.\nSee you soon❤️.`,
+                html: `<p>Hey ${name}! Thank you for your RSVP. I can’t wait to spend the day with you.</p><p>See you soon❤️.</p>`
             });
         } catch (error) {
             console.error('Error sending email:', error);

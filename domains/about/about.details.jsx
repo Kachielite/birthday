@@ -7,7 +7,7 @@ const AboutDetails = () => {
             className="flex flex-col justify-center items-center lg:items-start text-center lg:text-left space-y-5  w-full text-[#646C64]">
             <h2 className="text-[35px] lg:text-[42px] font-bold font-fredoka">About the 3rd August</h2>
             <p className="text-[18px] font-normal font-lato">
-                Hey beautiful! It’s my birthday on the August 3rd and I’m so excited, can you tell?
+                Hey beautiful! It’s my birthday on the 3rd of August and I’m so excited, can you tell?
             </p>
             <p className="text-[18px] font-normal font-lato">
                 In the past, I've never really done anything special for my birthday, but this year, I want it to be
@@ -24,8 +24,8 @@ const AboutDetails = () => {
                 rather celebrate this day with than you!
             </p>
             <p className="text-[18px] font-normal font-lato">
-                Take a journey through the website to see all the fun we have planned. I've created a special place just
-                for you, with everything curated specifically for each individual.
+                Take a journey through the website to see all the fun I've planned. I've created a special place just
+                for you, with everything curated specifically for each person.
 
             </p>
             <p className="text-[18px] font-normal font-lato">

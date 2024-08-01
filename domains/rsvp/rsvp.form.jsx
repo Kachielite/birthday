@@ -1,4 +1,4 @@
-const RsvpForm = ({formData, error, handleChange, success, handleSubmit}) => {
+const RsvpForm = ({formData, error, handleChange, success, handleSubmit, isSendingEmail}) => {
     return (
         <form id="rsvp-form" onSubmit={handleSubmit}
               className="flex flex-col justify-center items-center space-y-6 w-[100vw] h-[740px] bg-[#646C64]/[0.9] p-[30px] text-[#FFFDF2] font-lato px-4 mt-16 lg:mt-0">
@@ -32,7 +32,7 @@ const RsvpForm = ({formData, error, handleChange, success, handleSubmit}) => {
             </div>
             <button type="submit"
                     className="flex-shrink-0 rounded-[10px] w-[100px] h-[50px] font-lato text-[14px] rsvp flex justify-center items-center text-white">
-                Submit
+                {isSendingEmail ? "Sending..." : "RSVP"}
             </button>
         </form>
     )
